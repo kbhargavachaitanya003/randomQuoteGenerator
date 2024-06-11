@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
-import useQuoteStore from '../quoteStore';
+import useQuoteStore from '../Store/quoteStore';
 import { Box, Button, Typography } from '@mui/material';
 import '../Styles/QuoteDisplay.css';
 
